@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+    margin-top: 18px;
+
+    &__logo {
+        width: 150px;
+        margin: 0 90px;
+    }
+
+    &__info {
+        font-weight: bold;
+        color: $dark-gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    &__icon {
+        $size: 36px;
+
+        width: $size;
+        height: $size;
+        border-radius: 50%;
+        background-color: $icon-bg;
+        margin-right: 10px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        ion-icon {            
+            width: $size * .6;
+            height: $size * .6;
+            color: $light;
+            position: relative;
+        }
+    }
+}
